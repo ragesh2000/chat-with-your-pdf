@@ -1,3 +1,2 @@
 # Chat-with-your-pdf
-## what is Chat-with-your-pdf
-You can chat with any data in your hand using Chat-with-your-pdf
+An open-source project leveraging the capabilities of LLM (Large Language Models) and RAG (Retrieval Augmented Generation) to process queries based on PDF data at hand.
