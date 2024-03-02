@@ -90,11 +90,11 @@ class Chat():
         else:
             print('Please provide a valid pdf file ')
             return
-        # try:
-        db = self.create_db(pdf_file)
-        # except:
-        #     print("Exception in processing pdf file ")
-        #     return
+        try:
+            db = self.create_db(pdf_file)
+        except:
+            print("Exception in processing pdf file ")
+            return
         while True:
             user_query = input("Enter your query: ")
             context = self.retrieve_context(user_query, db)
