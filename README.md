@@ -12,17 +12,27 @@ What things you need to install the software and how to install them:
 
 ### Installation
 1. Clone the repository:
-```git clone https://github.com/ragesh2000/Chat-with-your-pdf.git```
+``` bash
+git clone https://github.com/ragesh2000/Chat-with-your-pdf.git
+```
 
 2. Navigate into the project directory:
-```cd Chat-with-your-pdf```
+``` bash
+cd Chat-with-your-pdf
+```
 
 3. Install the required dependencies:
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
+### Usage
 
-4. Run the ```run.py``` file:
-```python run.py -model openai/ollama```
-#### Arguments
-```model : Which model you need to use. (currently supports openai and ollama)```
-
-
+Run the ```run.py``` file with your preferred model as an argument (Currently supports openai or ollama models) :
+for running with openai model:
+``` bash 
+python run.py -model openai
+```
+or for running with ollam model:
+``` bash 
+python run.py -model ollama
+```
